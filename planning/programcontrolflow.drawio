@@ -1,16 +1,19 @@
-<mxfile host="65bd71144e" modified="2021-03-09T19:27:15.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.54.1 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" etag="4Rq_iinCPLGkP1Ru2YYR" version="14.2.4" type="embed">
-    <diagram id="U8UwtBdHkWbJrZiE4U4J" name="Page-1">
-        <mxGraphModel dx="1968" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="65bd71144e" modified="2021-03-10T18:58:49.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.54.1 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" etag="iULDgoyliD8na8icIbeQ" version="14.2.4" type="embed" pages="2">
+    <diagram id="U8UwtBdHkWbJrZiE4U4J" name="Main Page">
+        <mxGraphModel dx="1968" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry width="80" height="80" as="geometry"/>
+                    <mxGeometry y="-90" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="16" edge="1">
+                <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="16" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="400" y="430" as="sourcePoint"/>
                         <mxPoint x="120" y="40" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="40" y="40"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -87,37 +90,40 @@
                 <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="38" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="38" value="Category = new cat" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-300" y="5" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39" target="55">
+                <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="39" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="Attributes: Device name/model, serial number, Location Pricing" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-300" y="105" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="Label O - Device information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="41" value="Label O - Device information" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="65" width="450" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Header/Column Label&lt;br&gt;S/N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="42" value="Header/Column Label&lt;br&gt;S/N" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="Header/Column Label&lt;br&gt;Make/Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="43" value="Header/Column Label&lt;br&gt;Make/Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="Header/Column Label&lt;br&gt;Device Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="44" value="Header/Column Label&lt;br&gt;Device Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="Header/Column Label&lt;br&gt;Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="45" value="Header/Column Label&lt;br&gt;Status" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="30" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46" target="49">
+                <mxCell id="50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="46" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="Method Called: Edit Categories I/O -&amp;nbsp; New screen pops up with current categories listed, but in &quot;Edit&quot; view&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="46" value="Method Called: Edit Categories I/O -&amp;nbsp; New screen pops up with current categories listed, but in &quot;Edit&quot; view&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="135" width="130" height="125" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="30" target="46">
+                <mxCell id="47" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="30" target="46" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="220" y="220" as="sourcePoint"/>
                         <mxPoint x="270" y="170" as="targetPoint"/>
@@ -127,20 +133,89 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49" target="53">
+                <mxCell id="54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="49" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="Change attributes of category object and update/ remove records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="49" value="Change attributes of category object and update/ remove records" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-320" y="195" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="SQL Database Updated" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="53" value="SQL Database Updated" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-300" y="280" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="SQL Database Updated" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="55" value="SQL Database Updated" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-410" y="95" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Display section&lt;/b&gt;&amp;nbsp;is dynamic and will change based on buttons press&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="57" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Display section&lt;/b&gt;&amp;nbsp;is dynamic and will change based on buttons press&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="425" y="165" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="New Button Icon Created" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-480" y="-5" width="100" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="250" y="420" as="sourcePoint"/>
+                        <mxPoint x="300" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-5" y="630"/>
+                            <mxPoint x="520" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="tu8CmVaOAoM0T_PG66jl" name="Creation Page">
+        <mxGraphModel dx="1118" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="1I7Qele2aH024r_aib0B-0"/>
+                <mxCell id="1I7Qele2aH024r_aib0B-1" parent="1I7Qele2aH024r_aib0B-0"/>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="TXRWi1a7pR1DtGI8HC0N-0" target="TXRWi1a7pR1DtGI8HC0N-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-0" value="Method Called: Create Category I/O - Text box will appear asking user to enter a name for the category" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="345" width="150" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="300" y="240" width="240" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-3" value="Header O - Category Creation Screen" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="300" y="210" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="TXRWi1a7pR1DtGI8HC0N-4" target="k8ZuSzeqjn82eRQZKbAo-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-4" value="&lt;font color=&quot;#ffffff&quot;&gt;Text Box I/O - Category name&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="310" y="240" width="220" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="TXRWi1a7pR1DtGI8HC0N-5" target="k8ZuSzeqjn82eRQZKbAo-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-5" value="Button: Create" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="300" y="360" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="TXRWi1a7pR1DtGI8HC0N-6" target="k8ZuSzeqjn82eRQZKbAo-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXRWi1a7pR1DtGI8HC0N-6" value="Button: Cancel" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="440" y="360" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="TXRWi1a7pR1DtGI8HC0N-1" target="TXRWi1a7pR1DtGI8HC0N-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1I7Qele2aH024r_aib0B-1" source="k8ZuSzeqjn82eRQZKbAo-3" target="k8ZuSzeqjn82eRQZKbAo-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-3" value="&lt;font color=&quot;#ffffff&quot;&gt;Method Called - New Object of type category created&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="120" y="315" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-5" value="&lt;font color=&quot;#ffffff&quot;&gt;Cancels category screen&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="590" y="320" width="130" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-7" value="Input = name&lt;br&gt;Object Attribute" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="140" y="237.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8ZuSzeqjn82eRQZKbAo-10" value="&lt;font color=&quot;#ffffff&quot;&gt;SQL Database update&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1I7Qele2aH024r_aib0B-1">
+                    <mxGeometry x="10" y="340" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
