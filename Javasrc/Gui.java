@@ -5,14 +5,16 @@ import javax.swing.JPanel;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
 import javax.swing.JButton;
-public class Main
+public class Gui
 {
-  public Main()
-  {
+
+
+    public Gui()
+    {
     JFrame frame = new JFrame();
     JPanel panel = new JPanel();
     JButton button = new JButton("Click me");
-    JLabel label = new JLable("Number of clicks: ");
+    JLabel label = new JLabel("Number of clicks: ");
 
     panel.setBorder(BorderFactory.createEmptyBorder(300, 300, 500, 500));
     panel.setLayout(new GridLayout(0, 1));
@@ -24,9 +26,5 @@ public class Main
     frame.pack();
     frame.setVisible(true);
 
-  }
-  public static void main(String[] args)
-  {
-    new Main();
-  }
+    }
 }
